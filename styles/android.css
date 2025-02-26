@@ -1,0 +1,257 @@
+    .cr-rapper {
+      display: grid;
+      place-content: center;
+      border: 0.02rem solid transparent;
+    }
+    .cr-block {
+      display: grid;
+      margin: 0.2rem;
+      width: 23rem;
+      height: 23rem;
+      border: 0.02rem solid transparent;
+      place-content: center;
+      background: rgba(17, 49, 119, 0.9);
+    }
+    .cr-object {
+      display: grid;
+      border: 0.05rem solid transparent;
+      place-content: center;   
+      width: 22.5rem;  
+      height: 22.5rem;  
+    }
+    .cr-hair {
+      display: grid;
+      border: 0.05rem solid #94B77A;
+      width: 8rem;
+      height: 2.5rem;
+      border-radius: 4rem 4rem 2rem 2rem;
+      background: linear-gradient(100deg, #55FA96, #45EB87, #08BB4F);
+      transform: translateX(1rem) translateY(3.5rem);   
+      border-left: 0.2rem solid #FCF59E;   
+      z-index: 3;
+    }
+    .cr-head {
+      display: grid;
+      width: 10rem;
+      height: 12.5rem;
+      border-radius: 26%;
+      background: linear-gradient(100deg, #55FA96, #45EB87, #08BB4F);  
+      border-left: 0.2rem solid #FCF59E; 
+      border-right: 0.1rem solid #94B77A;
+      border-top: 0.1rem solid #A6CC97;
+      border-bottom: 0.1rem solid #A6CC97;
+      box-shadow: -1rem -1rem 2.5rem 0.001rem #FFFAB1; 
+      z-index: 2;
+    }
+    .cr-ears {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    #cr-e_right {
+      display: grid;
+      width: 1rem;
+      height: 2.9rem;
+      background: linear-gradient(100deg, #55FA96, #45EB87, #08BB4F); 
+      border-radius: 2.5rem;
+      transform: translateX(10.2rem) translateY(8rem);
+      box-shadow: 0 0 0.2rem 0.03rem inset #A6CC97;
+      z-index: 3;
+    }
+    #cr-e_left {
+      display: grid;
+      width: 1rem;
+      height: 2.9rem;
+      background: linear-gradient(100deg, #55FA96, #45EB87, #08BB4F);
+      border-radius: 2.5rem;
+      transform: translateX(-6rem) translateY(8rem);
+      box-shadow: 0 0 0.2rem 0.03rem inset #A6CC97;
+      border-left: 0.2rem solid #FCF59E;
+    }
+    .cr-brows {
+      display: grid;
+      margin-top: 1.8rem;
+      grid-template-columns: 1fr 1fr;
+      place-items: center;
+    }
+    #cr-right {
+      display: grid;
+      width: 2rem;
+      height: 0.4rem;
+      background: #08BB4F; 
+      border-radius: 0.5rem;
+      transform: rotate(-2deg);
+      box-shadow: 0 0 0.2rem 0.02rem inset #FFF890;
+    }
+    #cr-left {
+      display: grid;
+      width: 2rem;
+      height: 0.4rem;
+      background: #BE5C05;
+      border-radius: 0.5rem;
+      transform: rotate(7deg);
+      box-shadow: 0 0 0.2rem 0.02rem inset #FFF890;
+    }
+    .cr-eyes {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      place-items: center;
+    }
+    #cr-left_e {
+      display: grid;
+      width: 1.7rem;
+      height: 1.7rem;
+      margin-top: -1rem; 
+      background: radial-gradient(#3C5E5A 5%, #03D15C 25%);
+      border-radius: 50%;
+      box-shadow: 0 0 0.2rem 0.3rem inset #F5F3DC, 0 0 0.1rem 0.02rem #D3D9A0;
+    }
+    #cr-right_e {
+      display: grid;
+      width: 1.7rem;
+      height: 1.7rem;
+      margin-top: -1rem;
+      background: radial-gradient(#3C5E5A 5%, #03D15C 25%);
+      border-radius: 50%;
+      box-shadow: 0 0 0.2rem 0.3rem inset #F5F3DC, 0 0 0.1rem 0.02rem #D3D9A0;  
+    }
+    .cr-shapes {
+      display: grid;
+      grid-template-columns: 1fr;
+      place-items: center;
+    }
+    .cr-nose {
+      display: grid;
+      width: 2rem;
+      height: 2rem;
+      margin-top: -0.5rem;
+      border-radius: 50%;
+      background: linear-gradient(100deg, #55FA96, #45EB87, #08BB4F);
+      box-shadow: 0.01rem 0.08rem 0.028rem 0.01rem inset #94B77A;
+      z-index: 200;
+    }
+    .cr-mouth {
+      display: grid;
+      margin-top: 0.3rem;
+      width: 3rem;
+      height: 2rem;
+      border: 0.4rem solid #FCA7C2; 
+      border-radius: 0.8rem 0.8rem 0.15rem 0.15rem;
+      z-index: 3;
+      background: radial-gradient(#AA2B28 5%, #29000B 15%);
+      box-shadow: 0 0 0.3rem 0.02rem #7B6C6B, 0 0 0.5rem 0.01rem inset #AC123B;
+    }
+    .cr-teeth {
+      display: grid;
+    }
+    #cr-upper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 0.1rem;
+      margin-left: 0.01rem;
+      margin-right: 0.01rem; 
+      margin-top: 0rem;  
+    }
+    #cr-tooth1, #cr-tooth2, #cr-tooth3, #cr-tooth4, #cr-tooth5, #cr-tooth6 {
+      display: grid;
+      background: #FFF3F3;
+      height: 0.5rem;
+      width: auto;
+      border-radius: 0rem 0rem 0.7rem 0.7rem;
+    }
+    #cr-tooth1 {
+      margin-left: 0.1rem;
+      border-radius: 3rem 0rem 2rem 2rem;
+    }
+    #cr-tooth6 {
+      margin-right: 0.1rem;
+      border-radius: 0rem 3rem 2rem 2rem;
+    }
+    #cr-lower {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-gap: 0.08rem;
+      margin-left: 0.02rem;
+      margin-right: 0.02rem;
+      margin-top: 1rem; 
+    }
+    #cr-tooth7, #cr-tooth8, #cr-tooth9, #cr-tooth10, #cr-tooth11, #cr-tooth12 {
+      display: grid;
+      background: #FFF3F3;
+      height: 0.5rem; 
+      border-radius: 0.7rem 0.7rem 0rem 0rem;
+    }
+    #cr-tooth7 {
+      border-radius: 2rem 2rem 0rem 0rem;
+      margin-left: 0.03rem;
+    }
+    #cr-tooth12 {
+      border-radius: 2rem 2rem 0rem 0rem;
+      margin-right: 0.03rem;
+    }
+    .cr-chin {
+      display: grid;
+      width: 0.7rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      background: linear-gradient(100deg, #55FA96, #45EB87, #08BB4F);
+      box-shadow: 0 0 0.1rem 0.02rem inset #A6CC97;
+      margin-bottom: 0.5rem;
+    }
+    .cr-neck {
+      display: grid;
+      width: 6rem;
+      height: 2rem;
+      background: linear-gradient(100deg, #55FA96, #45EB87, #08BB4F); 
+      margin-bottom: 0.5rem;
+      transform: translateX(2rem) translateY(-0.5rem);
+      border-radius: 1rem 1rem 0.5rem 0.5rem;
+      box-shadow: 0 0 0.2rem 0.03rem inset #FFF890;
+      border-left: 0.2rem solid #FCF59E;
+    }
+    @media (max-width: 1000px) { 
+        .cr-block {
+            width:20.5rem;
+            height: 20.5rem;
+        }
+        .cr-object {
+            width: 20rem;   
+            height: 20rem;  
+        }
+    }
+    @media (max-width: 850px) { 
+        .cr-block {
+            width: 19.5rem;
+            height: 19.5rem;
+        }
+        .cr-object {
+            width: 19rem;   
+            height: 19rem;  
+        }
+    }
+    @media (max-width: 450px) { 
+        .cr-block {
+            width: 17rem;
+            height: 20.5rem;
+        }
+        .cr-object {
+            width: 16.5rem;   
+            height: 20rem;   
+        }
+    }
+    @media (max-width: 350px) { 
+        .cr-block {
+            width: 12.7rem;
+            height: 22.7rem;
+        }
+        .cr-object {
+            width: 12.6rem;   
+            height: 22.6rem;   
+        }
+    }
+    @media (max-width: 278px) { 
+        .cr-rapper {
+            display: none;
+        }
+    }
+                 
+                 
